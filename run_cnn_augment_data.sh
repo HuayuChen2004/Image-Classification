@@ -1,0 +1,14 @@
+python cnn.py \
+    --num_epochs 10 \
+    --batch_size 64 \
+    --learning_rate 0.0005 \
+    --num_classes 10 \
+    --num_folds 5 \
+    --image_size 384 384 \
+    --num_workers 4 \
+    --seed 42 \
+    --output_dir "output" \
+    --save_model \
+    --save_metrics \
+    --augment_data \
+    --name "augment"
